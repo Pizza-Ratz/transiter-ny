@@ -17,4 +17,4 @@ feeds:
     parser:
       built_in: GTFS_REALTIME
     auto_update:
-      period: {{ update_periodicity or '5' }} seconds
+      period: {{ update_periodicity or '300' }} seconds
